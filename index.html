@@ -16,12 +16,25 @@ function myFunction()
 {
 	document.getElementById("demo").innerHTML="Hello JavaScript!";
 }
+
+function mag_Q1(){
+    circulating_freq_e();
+    var currrent = document.getElementById("f_current").value; 
+    document.getElementById("f_B1").value = current;
+ 
+}
+
+	
 </script>
 
 <button type="button" onclick="myFunction()">点我</button>
 
-Circumference: <input type="number" id="circumference" value="800" 
-             onclick="circulating_freq_e()" onblur="circulating_freq_e()" onkeypress="circulating_freq_e()"> m
+	
+Circumference: <input type="number" id="f_current" value="800" 
+             onclick="mag_Q1()" onblur="mag_Q1()" onkeypress="mag_Q1()"> m
+
+Circumference: <input type="number" id="f_B1" value="0" 
+             onclick="mag_Q1()" onblur="mag_Q1()" onkeypress="mag_Q1()"> m
 
 
 </body>

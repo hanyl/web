@@ -18,7 +18,6 @@ function myFunction()
 }
 
 function mag_Q1(){
-    circulating_freq_e();
     var currrent = document.getElementById("f_current").value; 
     document.getElementById("f_B1").value = current;
  
@@ -30,7 +29,7 @@ function mag_Q1(){
 <button type="button" onclick="myFunction()">点我</button>
 
 	
-Current: <input type="number" id="f_current" value="800" 
+Current: <input type="number" id="f_current" value="80" 
              onclick="mag_Q1()" onblur="mag_Q1()" onkeypress="mag_Q1()"> m
 
 Magnetic Field: <input type="number" id="f_B1" value="0" 

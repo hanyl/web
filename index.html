@@ -20,36 +20,18 @@
 
 <p id="demo">
 JavaScript 可以触发事件，就像按钮点击。</p>
-
-<script>
-function myFunction()
-{
-	document.getElementById("demo").innerHTML="Hello JavaScript!";
-}
-
-function mag_Q1(){
-    var currrent = document.getElementById("f_current").value; 
-    document.getElementById("f_B1").value = current;
-}
-
 	
 </script>
 
 <button type="button" onclick="myFunction()">点我</button>
 
-	
-Current: <input type="number" id="f_current" value="80" 
-             onclick="mag_Q1()" onblur="mag_Q1()" onkeypress="mag_Q1()"> m
+<h2> MEBT Quadrupoles</h2><br>	
+Current: <input type="number" id="f_mebt_current" value="80" 
+             onclick="mag_MEBT_Q1()" onblur="mag_MEBT_Q1()" onkeypress="mag_MEBT_Q1()"> m
 
-Magnetic Field: <input type="number" id="f_B1" value="" 
-             onclick="mag_Q1()" onblur="mag_Q1()" onkeypress="mag_Q1()"> m
+Magnetic Field: <input type="number" id="f_mebt_B1" value="" 
+             onclick="mag_MEBT_Q1()" onblur="mag_MEBT_Q1()" onkeypress="mag_MEBT_Q1()"> m
 
-	       Circumference: <input type="number" id="circumference" value="800" 
-             onclick="circulating_freq_e()" onblur="circulating_freq_e()" onkeypress="circulating_freq_e()"> m
-      
-Circulating Frequency：<input type="number" id="f_circulating" value="" onclick="circulating_freq_e()" 
-        onblur="circulating_freq_e()" onkeypress="circulating_freq_e()"> MHz 
-    <br>
 
 
 </body>

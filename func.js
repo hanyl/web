@@ -18,7 +18,8 @@ function mag_MEBT_Q1(){
     var a2 = -0.03891109;
     var a1 = 67.14447275;
     var a0 = 15.56639917;
-    document.getElementById("f_mebt_B1").value = a4*Math.power(current,4) + a3*Math.power(current,3) + a2*Math.power(current,2) a1*Math.power(current,1) + a0;
+    //document.getElementById("f_mebt_B1").value = a4*Math.power(current,4) + a3*Math.power(current,3) + a2*Math.power(current,2) a1*Math.power(current,1) + a0;
+    document.getElementById("f_mebt_B1").value = current;
 }
 
 

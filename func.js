@@ -26,5 +26,4 @@ function mag_MEBT_Q1() {
 function circulating_freq_e() {
     var C = document.getElementById("circumference").value;   
     document.getElementById("f_circulating").value = c0/C/1e6;
-    document.getElementById("f_mebt_B1").value = c0/C/1e6;
 }

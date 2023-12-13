@@ -11,16 +11,16 @@ var mu = 1.660539040e-27; //kg, atomic mass constant
 
 var muc2 = 931.4940954; //atomic mass constant energy equivalent in MeV
 
-function mag_MEBT_Q1(){
-    var currrent = document.getElementById("f_mebt_current").value; 
-    var a4 = -3.22918E-07;
-    var a3 = 0.000195132;
-    var a2 = -0.03891109;
-    var a1 = 67.14447275;
-    var a0 = 15.56639917;
-    document.getElementById("f_mebt_B1").value = a4*Math.power(current,4) + a3*Math.power(current,3)
-        + a2*Math.power(current,2) a1*Math.power(current,1) + a0;
-}
+//function mag_MEBT_Q1(){
+//    var currrent = document.getElementById("f_mebt_current").value; 
+//    var a4 = -3.22918E-07;
+//    var a3 = 0.000195132;
+//    var a2 = -0.03891109;
+//    var a1 = 67.14447275;
+//    var a0 = 15.56639917;
+//    document.getElementById("f_mebt_B1").value = a4*Math.power(current,4) + a3*Math.power(current,3)
+//        + a2*Math.power(current,2) a1*Math.power(current,1) + a0;
+//}
 
 
 function circulating_freq_e() {

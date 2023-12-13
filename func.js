@@ -11,7 +11,7 @@ var mu = 1.660539040e-27; //kg, atomic mass constant
 
 var muc2 = 931.4940954; //atomic mass constant energy equivalent in MeV
 
-function mag_MEBT_Q1(){
+function mag_MEBT_Q1() {
     //var currrent = document.getElementById("f_mebt_current").value; 
     //var a4 = -3.22918E-07;
     //var a3 = 0.000195132;

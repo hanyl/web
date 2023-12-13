@@ -21,3 +21,9 @@ function mag_MEBT_Q1(){
     document.getElementById("f_mebt_B1").value = a4*Math.power(current,4) + a3*Math.power(current,3)
         + a2*Math.power(current,2) a1*Math.power(current,1) + a0;
 }
+
+
+function circulating_freq_e() {
+    var C = document.getElementById("circumference").value;   
+    document.getElementById("f_circulating").value = c0/C/1e6;
+}

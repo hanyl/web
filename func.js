@@ -18,6 +18,6 @@ function mag_MEBT_Q1() {
     //var a2 = -0.03891109;
     //var a1 = 67.14447275;
     var a0 = 15.56639917;
-    //document.getElementById("f_mebt_B1").value =  a3*Math.pow(current,3) + a2*Math.pow(current,2) + a1*Math.pow(current,1) + a0;
-    document.getElementById("f_mebt_B1").value =  a0;
+    document.getElementById("f_mebt_B1").value =  a4*Math.pow(current,4) + a3*Math.pow(current,3) + a2*Math.pow(current,2) + a1*Math.pow(current,1) + a0;
+    //document.getElementById("f_mebt_B1").value =  a0;
 }

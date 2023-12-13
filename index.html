@@ -3,6 +3,16 @@
 <head> 
 <meta charset="utf-8"> 
 <title>磁铁计算</title> 
+
+
+	<!-- local js -->
+	<script type="text/javascript" src="func.js"></script>
+	<!-- online js for latex support -->
+	<script type="text/javascript" src="http://latex.codecogs.com/latexit.js"></script>
+	<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+
+	
 </head>
 <body>
 
@@ -20,13 +30,6 @@ function myFunction()
 function mag_Q1(){
     var currrent = document.getElementById("f_current").value; 
     document.getElementById("f_B1").value = current;
-
-
-	function circulating_freq_e() {
-    var C = document.getElementById("circumference").value;   
-    document.getElementById("f_circulating").value = 299792458/C/1e6;
-}
-
 }
 
 	

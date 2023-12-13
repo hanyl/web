@@ -7,8 +7,6 @@ var c0 = 299792458; //m.s-1, speed of light in vacuum
 var e = 1.6021766208e-19; //C, elementary charge
 var mu = 1.660539040e-27; //kg, atomic mass constant 
 
-// xingguang Liu(liuxg@ihep.ac.cn), Jan 27, 2021
-
 var muc2 = 931.4940954; //atomic mass constant energy equivalent in MeV
 
 function mag_MEBT_Q1() {
